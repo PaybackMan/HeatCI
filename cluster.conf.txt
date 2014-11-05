@@ -1,0 +1,32 @@
+debian@als-clusterinstaller:~$ cat cluster.conf
+[OpenStack]
+auth_url = https://region-b.geo-1.identity.hpcloudsvc.com:35357/v2.0
+username = travis.plummer@hp.com
+password =  
+tenant_id = 58196046451129
+region = region-b.geo-1
+az = az1
+keypair_name = DemoKeyALS
+network_id = a16313da-0af8-47d6-afc8-b9582b79ea84
+image_id = e1f32f38-df3e-4f4f-ab65-35c68eaea939
+image_password = stackato
+core_size = standard.medium
+router_size = standard.medium
+dea_size = standard.medium
+service_size = standard.medium
+core_volume_size = 0
+service_volume_size = 0
+block_mount = /mnt/block_mount
+
+[ALS]
+cluster_title = pihkw Trial Instance
+cluster_prefix = pihkw
+router_count = 0
+dea_count = 0
+services =
+admin_email = travis.plummer@hp.com
+admin_password =  
+admin_org = default
+services_on_core = True
+
+debian@als-clusterinstaller:~$
