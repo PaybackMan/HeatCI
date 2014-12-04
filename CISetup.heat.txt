@@ -6,8 +6,8 @@ heat_template_version: 2013-05-23
 
 description: >
   Hello world HOT template that just defines a single server.
-  Contains just base features to verify base HOT support.
-
+  Contains just base features to verify base HOT support.q
+ 
 parameters:
   key_name:
     type: string
