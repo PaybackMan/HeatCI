@@ -25,7 +25,7 @@ router_count = 0
 dea_count = 0
 services =
 admin_email = travis.plummer@hp.com
-admin_password =  
+admin_password = qq 
 admin_org = default
 services_on_core = True
 
